@@ -1,4 +1,5 @@
-# charactherFreq.py count characters in txt file
+# Some functions like tokenize are based on functions in
+# https://github.com/joelhil/Topmost-Words
 # large and small letters combined at start!
 
 from random import random,uniform,randint
@@ -26,7 +27,6 @@ def randSeq(line,seqLength):
     text= line[start:start+seqLength].lower()
 
     return text
-
 
 
 
